@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 
 # Model
-model = torch.hub.load("ultralytics/yolov5", "yolov5s", pretrained=True, force_reload=True)
+model = torch.hub.load('Ultralytics/yolov5', 'custom','best', force_reload=True,trust_repo=True)
 
 # img = Image.open("zidane.jpg")  # PIL image direct open
 
